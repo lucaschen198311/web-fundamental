@@ -1,0 +1,42 @@
+button{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    padding: auto;
+}
+
+.searchbtn{
+    border: 2px solid #00CED1;
+    text-align: center;
+    font-size:15px;
+    background-color: white;
+    color: #00CED1;
+    margin-top:5%;
+    padding:6px;
+    width:150px;
+    border-radius: 12px
+}
+
+.plusbtn{
+    border: 1px solid #0beaee;
+    text-align: center;
+    font-size:15px;
+    background-color: #0beaee;
+    color: white;
+    padding:6px;
+    width:30px;
+    border-radius: 50%
+}
+
+.createbtn{
+    border: 2px solid black;
+    text-align: center;
+    font-size:18px;
+    background-color: #4169E1;
+    color: white;
+    padding:8px;
+    width:200px;
+    height: 40px;
+    box-shadow: 5px 5px 2px black;
+}
