@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+h2{
+    background-color:purple;
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    padding: 15px
+}
+
+h3{
+    background-color: lightskyblue;
+    color: #00008B;
+    text-align:right;
+    padding: 10px;
+    text-decoration: underline
+}
+.highlight{
+    color: cyan;
+}
