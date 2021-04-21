@@ -1,0 +1,50 @@
+img {
+    height: 200px;
+    margin: 15px;
+    background-color: white;
+    /*border: 1px solid white*/
+}
+
+h1{
+    text-align: center;
+    color: darkslategrey;
+    padding-top:20px;
+}
+
+p{
+    text-align: center;
+    padding: 10px
+}
+
+a{
+    color: lightseagreen
+}
+
+.container{
+    background-color: silver;
+    width:800px
+}
+
+.row1{
+    background-color: rgb(72, 196, 245);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:15px
+}
+
+.row2{
+    background-color: plum;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:15px
+}
+
+.row3{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:15px
+}
