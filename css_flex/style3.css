@@ -1,0 +1,52 @@
+h1{
+    flex:1;
+    margin:10px;
+    padding-left:10px
+}
+
+li{
+    flex:1;
+    list-style-type: none; 
+}
+
+a{
+    color: lightslategray;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover, a:active {
+    color:white;
+  }
+
+.active{
+    color:white
+}
+
+.btn{
+    background-color: #00FFFF;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#333333;
+    color: white;
+    width: 1200px;
+    height:60px;
+    box-shadow: 5px 5px 0px black;
+    font-family: serif;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1
+}
