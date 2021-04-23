@@ -1,0 +1,37 @@
+.red{
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}
+
+.black{
+    height: 80px;
+    width: 300px;
+    background-color:black;
+    text-align: center;
+}
+
+.green{
+    height: 50px;
+    width: 300px;
+    background-color:green;
+}
+
+#moon{
+    background-color:black;
+    color:white;
+    font-size:30px
+}
+
+#star{
+    background-color:black;
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.symbol{
+    display:inline-block;
+    margin-top:25px
+}
+

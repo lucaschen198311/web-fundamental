@@ -18,13 +18,13 @@ h2{
 
 .card{
     border: 1px solid grey;
-    width:600px;
+    width:600px
 }
 
 .card-header{
     background-color: #00CED1;
     height:75px;
-    width: 600px
+    width:600px
 }
 
 .card-body{
