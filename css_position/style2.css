@@ -2,7 +2,7 @@ h1{
     flex:1;
     margin:10px;
     padding-left:10px;
-    text-align: end;
+    text-align: center;
 }
 
 h3{
@@ -47,7 +47,7 @@ p{
     justify-content: center;
     background-color:#333333;
     color: white;
-    width: 1000px;
+    width: 900px;
     height:50px;
     box-shadow: 5px 5px 0px black;
     font-family: serif;
@@ -57,7 +57,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex: 3
+    flex: 2
 }
 
 .nav-btn{
@@ -65,17 +65,16 @@ p{
     color: white;
     text-align: center;
     font-size: 18px;
-    margin-right: 45px;
-    margin-top:10px;
+    margin:10px 0px 10px 30px
     box-shadow: 5px 5px 0px black;
-    padding-right:3px;
+    padding-left:10px;
     height:30px;
     width:50px
-    flex:2
+    flex:1
 }
 
-.active{
-    color:red
+.nav-links .active{
+    color:white
 }
 
 /*********************************Card style**********************************/
@@ -242,8 +241,7 @@ p{
     height: 40px
 }
 
-.connt-footer a{
-
-    text-align: center;
-    padding: 10px;
+.connt-footer{
+    display:flex;
+    align-items: center;
 }
