@@ -1,0 +1,249 @@
+h1{
+    flex:1;
+    margin:10px;
+    padding-left:10px;
+    text-align: end;
+}
+
+h3{
+    margin:0px;
+    padding:5px 5px 5px 30px
+}
+
+p{
+    margin: 10px 0px 10px 10px;
+}
+
+.body-right{
+    width: 250px;
+    margin: 32px 20px 20px 20px
+}
+
+.body-left{
+    width: 550px
+}
+
+.main-body{
+    display:flex;
+    align-items: top;
+}
+
+/*********************************Nav style**********************************/
+
+.nav-links li{
+    list-style-type: none; 
+}
+
+.nav-links a{
+    color: lightslategray;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#333333;
+    color: white;
+    width: 1000px;
+    height:50px;
+    box-shadow: 5px 5px 0px black;
+    font-family: serif;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 3
+}
+
+.nav-btn{
+    background-color: #00FFFF;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 45px;
+    margin-top:10px;
+    box-shadow: 5px 5px 0px black;
+    padding-right:3px;
+    height:30px;
+    width:50px
+    flex:2
+}
+
+.active{
+    color:red
+}
+
+/*********************************Card style**********************************/
+
+.top-pic{
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left:140px
+}
+
+.card{
+    border: 2px solid grey;
+    width:400px;
+    margin: 30px 10px 20px 120px;
+    border-radius: 5px;
+}
+
+.card-header{
+    background-color: #00CED1;
+    height:75px;
+}
+
+.card-body{
+    padding: 30px 15px 10px 15px
+}
+
+.card-footer{
+    color: royalblue;
+    font-weight: bold;
+    font-style: normal;
+    padding-left:10px;
+    padding-bottom: 20px
+}
+
+.card-location{
+    display:inline-flex;
+    align-items: center;
+    margin:0px;
+    height:30px
+}
+
+.card-map-pin{
+    height:15px;
+    width:15px;
+    margin-right:10px;
+    border: none;
+
+}
+
+.card-body p{
+    margin: 10px 0px 10px 0px
+}
+
+.card-footer i{
+    font-style: normal;
+}
+
+/*********************************Education style**********************************/
+
+.education{
+    border: 2px solid grey;
+    width:400px;
+    margin: 30px 10px 20px 120px;
+    border-radius: 5px;
+}
+
+.education-header {
+    background-color: black;
+    color:white;
+    height:30px;
+    margin:0px
+}
+
+/*********************************conn-request style**********************************/
+
+.conn-request-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height:40px
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row img{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+
+.row p {
+    padding-right: 80px
+}
+
+.conn-request-header h3{
+    padding:0px;
+    margin-right:30px;
+}
+
+.indicator1{
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: gray;
+    width:20px;
+    height:20px;
+    text-align: center;
+}
+.conn-request{
+    border: 2px solid grey;
+    width:240px;
+    border-radius: 5px;
+
+}
+
+
+/*********************************connections style**********************************/
+
+.indicator2{
+    border-radius: 20px;
+    border: 1px solid grey;
+    background-color: gray;
+    width:50px;
+    height:20px;
+    text-align: center;
+    margin-left: 10px
+}
+
+.connt-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height:45px
+}
+
+.connections{
+    border: 2px solid grey;
+    width:240px;
+    margin: 30px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.connt-body .row p{
+    padding-right: 120px
+}
+
+.connt-header h3{
+    padding: 0px 0px 0px 5px
+}
+
+.connt-footer{
+    border-top: 2px solid grey;
+    height: 40px
+}
+
+.connt-footer a{
+
+    text-align: center;
+    padding: 10px;
+}
