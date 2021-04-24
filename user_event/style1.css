@@ -1,0 +1,18 @@
+.click{
+    border: 1px solid black;
+    width:600px;
+    height:100px;
+    padding:20px;
+}
+
+legend{
+    font-size: 1em;
+    border: none;
+    margin-left: 1em;
+    width: auto;
+}
+
+h1{
+    text-align:right;
+    transform:rotate(180deg)
+}
