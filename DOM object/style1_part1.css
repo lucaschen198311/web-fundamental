@@ -1,0 +1,26 @@
+.card{
+    border: 1px solid black;
+    height: 120px;
+    width: 320px;
+    margin:auto;
+}
+p{
+    padding-left:10px;
+}
+
+h3{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+.navp{
+    display:inline-block;
+    margin-left:20px;
+}
+
+button{
+    background-color: goldenrod;
+    box-shadow: 3px 3px black;
+    display: inline-block;
+    margin-left:60px;
+}
