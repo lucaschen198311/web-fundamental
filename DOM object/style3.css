@@ -1,0 +1,133 @@
+h4{
+    text-align: center;
+}
+
+hr{
+    width:600px;
+    height:0px;
+    border-top: 1px solid black;
+}
+
+a{
+    padding-right:30px;
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label{
+    margin-left:300px;
+}
+
+select{
+    margin-left:10px;
+    width:50px;
+}
+
+figure{
+    width:80px;
+    height:100px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.high{
+    margin-left:10px;
+    color:red;
+    font-weight: bold;
+}
+
+.low{
+    margin-left:10px;
+    color:royalblue;
+    font-weight:bold;
+}
+
+.main{
+    width: 800px;
+    height:500px;
+    border:2px solid black;
+    margin:auto;
+}
+
+.nav{
+    width: 800px;
+    height:50px;
+    background-color: cornflowerblue;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 600px;
+    height:50px;
+    margin:auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width:130px;
+    height:220px;
+    background-color: lightgray;
+    margin:auto;
+}
+
+.board{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right:10px;
+}
+
+.cookie{
+    width:570px;
+    height:120px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.cookie button{
+    flex:1;
+    width: 60px;
+    height:30px;
+    padding:0px;
+    margin-right:15px;
+    box-shadow: 5px 5px 2px black;
+    font-size: 15px;
+    background-color: cornflowerblue;
+}
+
+.cookie-img{
+    flex:1;
+}
+
+.cookie-text{
+    flex:3;
+}
+
+.cookie-text p a{
+    text-decoration: underline;
+    color:darkblue;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h2>Dojo Weather</h2>
+            <div class="city">
+                <a onclick="alertmessage()" href="">Burbank</a>
+                <a onclick="alertmessage()" href="">Chicargo</a>
+                <a onclick="alertmessage()" href="">Dallas</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+                <h3 style="margin-left:20px">San Jose</h3>
+                <label for="temp">show temperature in </label>
+                <select name="temp" id="temp" onchange="tempConvert(this)">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+            <hr>
+            <div class="board">
+                <div class="card">
+                    <h4>Today</h4>
+                    <figure>
+                        <img src="./images/some_rain.png" alt="some rain img">
+                        <figcaption>some rain</figcaption>
+                    </figure>
+                    <span class="high">23.9°F</span>
+                    <span class="low">18.3°F</span>
+                </div>
+                <div class="card">
+                    <h4>Tomorrow</h4>
+                    <figure>
+                        <img src="./images/some_sun.png" alt="some sun img">
+                        <figcaption>some sun</figcaption>
+                    </figure>
+                    <span class="high">26.7°F</span>
+                    <span class="low">18.9°F</span>
+                </div>
+                <div class="card">
+                    <h4>Friday</h4>
+                    <figure>
+                        <img src="./images/some_clouds.png" alt="some clouds img">
+                        <figcaption>some clouds</figcaption>
+                    </figure>
+                    <span class="high">20.6°F</span>
+                    <span class="low">16.1°F</span>
+                </div>
+                <div class="card">
+                    <h4>Saturday</h4>
+                    <figure>
+                        <img src="./images/some_sun.png" alt="some sun img">
+                        <figcaption>some sun</figcaption>
+                    </figure>
+                    <span class="high">25.6°F</span>
+                    <span class="low">21.1°F</span>
+                </div>
+            </div>
+            <div class="cookie">
+                <div class="cookie-img">
+                    <img src="./images/cookie.png" alt="cookie-img">
+                </div>
+                <div class="cookie-text">
+                    <h4 style="text-align: left; margin-bottom:0px">Stop! Cookie Time</h4>
+                    <p>We use cookie to personalize contents and ads to provide social media feature and to analyse our trafic. <a>Read more...</a></p>
+                </div>
+                <button type="button" onclick="closeCookie()">I accept</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script3.js"></script>
+</html>
