@@ -1,0 +1,42 @@
+.center-box {
+    width:80%;
+    height:200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-item {
+    width:50px;
+    height:50px;
+    background-color: burlywood;
+}
+
+.nav{
+    width:80%;
+    background-color: cornflowerblue;
+    display:flex;
+    align-items: center;
+}
+img{
+    height:50px;
+    padding:10px;
+    padding-right:30px;
+}
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width:70%;
+    padding-left:50px;
+}
+h1{
+    color:white;
+    font-size: 20px;
+}
+a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+}
