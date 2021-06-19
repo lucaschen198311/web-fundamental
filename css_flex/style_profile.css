@@ -1,0 +1,166 @@
+.container{
+    width:90%;
+    margin:auto;
+    
+}
+.main{
+    background-color: #6F5964;
+    padding:15px;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    height:60px;
+}
+header p{
+    font-weight: bolder;
+    font-size:20px;
+    margin-right:80px;
+}
+
+#photo-of-me {
+    width:500px;
+    height:310px;
+    border:10px solid lightgray;
+    margin:10px;
+}
+
+.intro{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card p{
+    margin:10px;
+}
+
+.card h3{
+    background-color: #8C8A96;
+    margin:0px;
+    padding:15px 10px 15px 10px;
+}
+
+.about{
+    background-color: #DED0DD;
+    margin:10px;
+    height:329px;
+}
+
+.about p{
+    margin:15px;
+    padding:10px 0px 20px 0px;
+    font-size: 16px;
+}
+
+.about section{
+    height:50px;
+    background-color: #95939E;
+}
+.about a{
+    margin-left:15px;
+    color: black;
+}
+
+.about section h3{
+    margin:0px 0px 0px 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.btn{
+    text-align: center;
+    margin:10px;
+    padding:10px;
+}
+.btn button{
+    background-color: darkgreen;
+    color:whitesmoke;
+    padding:5px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: lightgray;
+    padding:10px 0px 0px 0px;
+}
+
+footer ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin:5px;
+}
+
+footer ul li{
+    margin:5px;
+    font-style: italic;
+}
+
+
+footer ul li img{
+    width:20px;
+    margin:2px;
+}
+footer p{
+    text-align: center;
+    margin:5px 0px 5px 0px;
+}
+
+.tech img{
+    width:45px;
+    margin:10px;
+}
+
+.la-mode{
+    margin:10px;
+    background-color: #E2D7E1;
+    width:344px;
+}
+#la-mode-photo{
+    width:344px;
+}
+
+.family-contacts{
+    margin:10px;
+    background-color: #E2D7E1;
+    width:344px;
+}
+#family-contacts-photo{
+    width:344px;
+}
+
+.five-eleven{
+    margin:10px;
+    background-color: #E2D7E1;
+    width:344px;
+}
+#five-eleven-photo{
+    width:344px;
+}
+/*section{
+    background-color: #878593;
+} */
+h1{
+    margin:20px;
+}
+
+h3{
+    color:white;
+}
+h4{
+    background-color: #8C8A96;
+    margin:0px;
+    padding:10px 10px 10px 5px;
+    color:whitesmoke;
+}
