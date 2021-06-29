@@ -1,0 +1,26 @@
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red{
+    color:red;
+}
+
+button{
+    background-color: lightgray;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 black;
+}
+
+h1{
+    text-align: center;
+}
